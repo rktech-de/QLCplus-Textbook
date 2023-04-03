@@ -19,15 +19,15 @@
 }
 
 .qlcpButtonColor1 {
-  background: #69b;
-  background: -webkit-gradient(linear, left top, left bottom, from(#8bd), to(#69b) );
-  background: -moz-linear-gradient(-90deg, #8bd, #69b);
+  background: #58f;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7af), to(#58f) );
+  background: -moz-linear-gradient(-90deg, #7af, #58f);
 }
 
 .qlcpButtonColor1:hover {
-  background: #479;
-  background: -webkit-gradient(linear, left top, left bottom, from(#69b), to(#479) );
-  background: -moz-linear-gradient(-90deg, #69b, #479);
+  background: #14d;
+  background: -webkit-gradient(linear, left top, left bottom, from(#58f), to(#14d) );
+  background: -moz-linear-gradient(-90deg, #58f, #14d);
 }
 
 .qlcpButtonColor2 {
@@ -102,6 +102,30 @@
   background: -moz-linear-gradient(-90deg, #bb9, #997);
 }
 
+.qlcpButtonColor8 {
+  background: #e69;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f7a), to(#e69) );
+  background: -moz-linear-gradient(-90deg, #f7a, #e69);
+}
+
+.qlcpButtonColor8:hover {
+  background: #c47;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e69), to(#c47) );
+  background: -moz-linear-gradient(-90deg, #e69, #c47);
+}
+
+.qlcpButtonColor9 {
+  background: #69b;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8bd), to(#69b) );
+  background: -moz-linear-gradient(-90deg, #8bd, #69b);
+}
+
+.qlcpButtonColor9:hover {
+  background: #479;
+  background: -webkit-gradient(linear, left top, left bottom, from(#69b), to(#479) );
+  background: -moz-linear-gradient(-90deg, #69b, #479);
+}
+
 .qlcpButtonColorError {
   color: white;
   background: #f30;
@@ -118,59 +142,6 @@
   width: 95%;
 }
 
-/*
-.qlcpButtonFX {
-  font-size:14pt; 
-  display: table-cell; 
-  vertical-align: middle;
-  text-align: center;
-  color: black;
-  cursor:pointer;
-  height: 30px;
-  width: 95%;
-  padding: 0 10px 0 10px;
-
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px; 
-  border-radius: 6px; 
-}
-
-.qlcpButtonFX:hover {
-}
-*/
-
-/*
-.qlcpButtonNOK {
-  font-size:14pt; 
-  display: table-cell; 
-  vertical-align: middle;
-  text-align: center;
-  color: black;
-  height: 30px;
-  width: 95%;
-  padding: 0 10px 0 10px;
-  background: #Af0000;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#Af0000) );
-  background: -moz-linear-gradient(-90deg, #ff0000, #Af0000);
-
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px; 
-  border-radius: 6px; 
-}
-*/
-
-/* ab Chrome 106 */
-/*
-.textbook{
-  container-type: inline-size;
-  container-name: textbook-style;
-}
-@container textbook-style (min-width: 0px) {
-  div {
-    margin-bottom: 10px;
-  }
-}
-*/
 
 .actor-style {
     color: #992aa1;

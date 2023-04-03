@@ -251,7 +251,7 @@
             QLC+ IP: 
             <input type="text" id="qlcplusIP" value="127.0.0.1:9999"></input>
             <input class="top-button" id="QLCpConnButton" style="width: 80px;" type="button" value="Connect" onclick="connectQLCpWebSocket(document.getElementById('qlcplusIP').value,QLCpConnected);"></input>
-            <div id="QLCpConnStatus" style="display: inline-block;"><img src="include/QLCp_off.png">&nbsp;<font color=red>Not connected</font></div>
+            <div id="QLCpConnStatus" style="display: inline-block;"><img src="include/icon/QLCp_off.png">&nbsp;<font color=red>Not connected</font></div>
             <!--
             <button class="top-button" onclick="displayEditClass('.qlcpMode1', 'none')" type="button">hide</button>
             <button class="top-button" onclick="displayEditClass('.qlcpMode1', 'inline')" type="button">show</button>
@@ -259,13 +259,15 @@
             &nbsp;&nbsp;
           </span>
           <span style="margin-right: 20px;">
-            <button class="top-button" id="hideButton1" onclick="displayButtonToggle(this, '.qlcpButtonColor1')" type="button"><div class="toggle-box qlcpButtonColor1" style="width: 24px;">&nbsp;</div></button>
-            <button class="top-button" id="hideButton2" onclick="displayButtonToggle(this, '.qlcpButtonColor2')" type="button"><div class="toggle-box qlcpButtonColor2" style="width: 24px;">&nbsp;</div></button>
-            <button class="top-button" id="hideButton3" onclick="displayButtonToggle(this, '.qlcpButtonColor3')" type="button"><div class="toggle-box qlcpButtonColor3" style="width: 24px;">&nbsp;</div></button>
-            <button class="top-button" id="hideButton4" onclick="displayButtonToggle(this, '.qlcpButtonColor4')" type="button"><div class="toggle-box qlcpButtonColor4" style="width: 24px;">&nbsp;</div></button>
-            <button class="top-button" id="hideButton5" onclick="displayButtonToggle(this, '.qlcpButtonColor5')" type="button"><div class="toggle-box qlcpButtonColor5" style="width: 24px;">&nbsp;</div></button>
-            <button class="top-button" id="hideButton6" onclick="displayButtonToggle(this, '.qlcpButtonColor6')" type="button"><div class="toggle-box qlcpButtonColor6" style="width: 24px;">&nbsp;</div></button>
-            <button class="top-button" id="hideButton7" onclick="displayButtonToggle(this, '.qlcpButtonColor7')" type="button"><div class="toggle-box qlcpButtonColor7" style="width: 24px;">&nbsp;</div></button>
+            <button class="top-button" id="hideButton1" onclick="displayButtonToggle(this, '.qlcpButtonColor1')" type="button"><div class="toggle-box qlcpButtonColor1" style="width: 20px;">&nbsp;</div></button>
+            <button class="top-button" id="hideButton2" onclick="displayButtonToggle(this, '.qlcpButtonColor2')" type="button"><div class="toggle-box qlcpButtonColor2" style="width: 20px;">&nbsp;</div></button>
+            <button class="top-button" id="hideButton3" onclick="displayButtonToggle(this, '.qlcpButtonColor3')" type="button"><div class="toggle-box qlcpButtonColor3" style="width: 20px;">&nbsp;</div></button>
+            <button class="top-button" id="hideButton4" onclick="displayButtonToggle(this, '.qlcpButtonColor4')" type="button"><div class="toggle-box qlcpButtonColor4" style="width: 20px;">&nbsp;</div></button>
+            <button class="top-button" id="hideButton5" onclick="displayButtonToggle(this, '.qlcpButtonColor5')" type="button"><div class="toggle-box qlcpButtonColor5" style="width: 20px;">&nbsp;</div></button>
+            <button class="top-button" id="hideButton6" onclick="displayButtonToggle(this, '.qlcpButtonColor6')" type="button"><div class="toggle-box qlcpButtonColor6" style="width: 20px;">&nbsp;</div></button>
+            <button class="top-button" id="hideButton7" onclick="displayButtonToggle(this, '.qlcpButtonColor7')" type="button"><div class="toggle-box qlcpButtonColor7" style="width: 20px;">&nbsp;</div></button>
+            <button class="top-button" id="hideButton8" onclick="displayButtonToggle(this, '.qlcpButtonColor8')" type="button"><div class="toggle-box qlcpButtonColor8" style="width: 20px;">&nbsp;</div></button>
+            <button class="top-button" id="hideButton9" onclick="displayButtonToggle(this, '.qlcpButtonColor9')" type="button"><div class="toggle-box qlcpButtonColor9" style="width: 20px;">&nbsp;</div></button>
           </span>
           </div>
         </td>
@@ -329,14 +331,16 @@
                 </td>  
                 <td>
                   <div class="toggle-buttons">                                                
-                    <input type="radio" id="rb-c1" value='' name="group-c" checked="checked" /><label style="width: 38px;" for="rb-c1">Auto</label>
-                    <input type="radio" id="rb-c2" value='Audio' name="group-c" /><label style="width: 38px;" for="rb-c2"><img src="include/Audio.png"></label>
-                    <input type="radio" id="rb-c3" value='Chaser' name="group-c" /><label style="width: 38px;" for="rb-c3"><img src="include/Chaser.png"></label>
-                    <input type="radio" id="rb-c4" value='Collection' name="group-c" /><label style="width: 38px;" for="rb-c4"><img src="include/Collection.png"></label>
-                    <input type="radio" id="rb-c5" value='EFX' name="group-c" /><label style="width: 38px;" for="rb-c5"><img src="include/EFX.png"></label>
-                    <input type="radio" id="rb-c6" value='RGBMatrix' name="group-c" /><label style="width: 38px;" for="rb-c6"><img src="include/RGBMatrix.png"></label>
-                    <input type="radio" id="rb-c7" value='Scene' name="group-c" /><label style="width: 38px;" for="rb-c7"><img src="include/Scene.png"></label>
-                    <input type="radio" id="rb-c8" value='Script' name="group-c" /><label style="width: 38px;" for="rb-c8"><img src="include/Script.png"></label>
+                    <input type="radio" id="rb-c1"  value=''           name="group-c" checked="checked" /><label style="width: 34px;" for="rb-c1">Auto</label>
+                    <input type="radio" id="rb-c2"  value='Audio'      name="group-c" /><label style="width: 29px;" for="rb-c2"><img src="include/icon/audio.png" style="height: 15px;"></label>
+                    <input type="radio" id="rb-c3"  value='Chaser'     name="group-c" /><label style="width: 29px;" for="rb-c3"><img src="include/icon/chaser.png" style="height: 15px;"></label>
+                    <input type="radio" id="rb-c4"  value='Collection' name="group-c" /><label style="width: 29px;" for="rb-c4"><img src="include/icon/collection.png" style="height: 15px;"></label>
+                    <input type="radio" id="rb-c5"  value='EFX'        name="group-c" /><label style="width: 29px;" for="rb-c5"><img src="include/icon/efx.png" style="height: 15px;"></label>
+                    <input type="radio" id="rb-c6"  value='RGBMatrix'  name="group-c" /><label style="width: 29px;" for="rb-c6"><img src="include/icon/rgbmatrix.png" style="height: 15px;"></label>
+                    <input type="radio" id="rb-c7"  value='Scene'      name="group-c" /><label style="width: 29px;" for="rb-c7"><img src="include/icon/scene.png" style="height: 15px;"></label>
+                    <input type="radio" id="rb-c8"  value='Script'     name="group-c" /><label style="width: 29px;" for="rb-c8"><img src="include/icon/script.png" style="height: 15px;"></label>
+                    <input type="radio" id="rb-c9"  value='Sequence'   name="group-c" /><label style="width: 29px;" for="rb-c9"><img src="include/icon/sequence.png" style="height: 15px;"></label>
+                    <input type="radio" id="rb-c10" value='Video'      name="group-c" /><label style="width: 29px;" for="rb-c10"><img src="include/icon/video.png" style="height: 15px;"></label>
                   </div>                                                                      
                 </td>
               </tr>
@@ -346,39 +350,22 @@
                 </td>  
                 <td>
                   <div class="toggle-buttons">                                                
-                    <input type="radio" id="rb-d1" value='0' name="group-d" checked="checked" /><label style="width: 38px;" for="rb-d1">Auto</label>
-                    <input type="radio" id="rb-d2" value='1' name="group-d" /><label style="width: 38px;" for="rb-d2"><div class="toggle-box qlcpButtonColor1">&nbsp;</div></label>
-                    <input type="radio" id="rb-d3" value='2' name="group-d" /><label style="width: 38px;" for="rb-d3"><div class="toggle-box qlcpButtonColor2">&nbsp;</div></label>
-                    <input type="radio" id="rb-d4" value='3' name="group-d" /><label style="width: 38px;" for="rb-d4"><div class="toggle-box qlcpButtonColor3">&nbsp;</div></label>
-                    <input type="radio" id="rb-d5" value='4' name="group-d" /><label style="width: 38px;" for="rb-d5"><div class="toggle-box qlcpButtonColor4">&nbsp;</div></label>
-                    <input type="radio" id="rb-d6" value='5' name="group-d" /><label style="width: 38px;" for="rb-d6"><div class="toggle-box qlcpButtonColor5">&nbsp;</div></label>
-                    <input type="radio" id="rb-d7" value='6' name="group-d" /><label style="width: 38px;" for="rb-d7"><div class="toggle-box qlcpButtonColor6">&nbsp;</div></label>
-                    <input type="radio" id="rb-d8" value='7' name="group-d" /><label style="width: 38px;" for="rb-d8"><div class="toggle-box qlcpButtonColor7">&nbsp;</div></label>
+                    <input type="radio" id="rb-d1"  value='0' name="group-d" checked="checked" /><label style="width: 34px;" for="rb-d1">Auto</label>
+                    <input type="radio" id="rb-d2"  value='1' name="group-d" /><label style="width: 29px;" for="rb-d2"><div class="toggle-box qlcpButtonColor1">&nbsp;</div></label>
+                    <input type="radio" id="rb-d3"  value='2' name="group-d" /><label style="width: 29px;" for="rb-d3"><div class="toggle-box qlcpButtonColor2">&nbsp;</div></label>
+                    <input type="radio" id="rb-d4"  value='3' name="group-d" /><label style="width: 29px;" for="rb-d4"><div class="toggle-box qlcpButtonColor3">&nbsp;</div></label>
+                    <input type="radio" id="rb-d5"  value='4' name="group-d" /><label style="width: 29px;" for="rb-d5"><div class="toggle-box qlcpButtonColor4">&nbsp;</div></label>
+                    <input type="radio" id="rb-d6"  value='5' name="group-d" /><label style="width: 29px;" for="rb-d6"><div class="toggle-box qlcpButtonColor5">&nbsp;</div></label>
+                    <input type="radio" id="rb-d7"  value='6' name="group-d" /><label style="width: 29px;" for="rb-d7"><div class="toggle-box qlcpButtonColor6">&nbsp;</div></label>
+                    <input type="radio" id="rb-d8"  value='7' name="group-d" /><label style="width: 29px;" for="rb-d8"><div class="toggle-box qlcpButtonColor7">&nbsp;</div></label>
+                    <input type="radio" id="rb-d9"  value='8' name="group-d" /><label style="width: 29px;" for="rb-d9"><div class="toggle-box qlcpButtonColor8">&nbsp;</div></label>
+                    <input type="radio" id="rb-d10" value='9' name="group-d" /><label style="width: 29px;" for="rb-d10"><div class="toggle-box qlcpButtonColor9">&nbsp;</div></label>
                   </div>
                  </td> 
               </tr>
             </table>
           </div>
           <div class="sidebar" hidden=hidden>
-            <!-- TestCode 
-            <div>
-              <button class="sidebarRootTreeButton" onclick="toggleHide('AudioButtons')"><span id="AudioButtonsTop">&gt;</span>&nbsp;&nbsp;<img src="include/Audio.png"> Audio</button><br>
-            </div>
-            <div id="AudioButtons" hidden=hidden>
-              <button class="sidebarButton" onclick="insertQLCpButton(1)">Audio line1</button><br>
-              <button class="sidebarButton" onclick="insertQLCpButton(2)">Audio line2</button><br>
-              <button class="sidebarButton" onclick="insertQLCpButton(3)">Audio line3</button><br>
-              <button class="sidebarButton" onclick="insertQLCpButton(4)">Audio line4</button><br>
-              <button class="sidebarButton" onclick="insertQLCpButton(5)">Audio line5</button><br>
-            </div>                                
-            <div>
-              <button class="sidebarRootTreeButton" onclick="toggleHide('EFXButtons')"><span id="EFXButtonsTop">&gt;</span>&nbsp;&nbsp;<img src="include/EFX.png"> EFX</button><br>
-            </div>                                
-            <div id="EFXButtons" hidden=hidden">                                 
-              <button class="sidebarButton" onclick="insertQLCpButton(6)">EFX line1</button><br>
-              <button class="sidebarButton" onclick="insertQLCpButton(7)">EFX line2</button><br>
-            </div>
-            -->
           </div>
           <div class="sidebarIndexBox" id="textbookID" hidden=hidden>
           </div>
@@ -387,35 +374,12 @@
     </table>    
     <!-- ******************************************* JS ****************************************************************************************************************** -->
     <script>
+      var qlcpButtonColor_count = 9; // number of select Buttons 1..9
       var summernoteActive = false;
       var textBookIndexActive = false;
       var QLCpConnectedStatus = false;
       var onIntervalTimer;
-
       
-
-      
-      
-const isSameDomain = (styleSheet) => {
-  console.log(styleSheet.href);
-  if (!styleSheet.href) {
-    return true;
-  }
-
-  return styleSheet.href.indexOf(window.location.origin) === 0;
-};
-
-const getCSSCustomPropIndex = () => [...document.styleSheets]
-    .filter(isSameDomain);
-console.log(getCSSCustomPropIndex());
-
-
-      
-      
-      
-      
-      //$('.click2edit').onscroll = function() {updateTextBookInfo('#clic2editID')}
-      //document.getElementById("clic2editID").onscroll = function() {updateTextBookInfo('#clic2editID')};
       document.querySelector("#clic2editID").onscroll = function() {onScrollText()};
 
       window.addEventListener('beforeunload', function (e) {
@@ -690,7 +654,7 @@ console.log(getCSSCustomPropIndex());
         return button.render();   // return button as jquery object
       }
 
-      // farbauswahl --> https://stackoverflow.com/questions/52310374/adding-custom-colours-to-summernote
+      // select colour --> https://stackoverflow.com/questions/52310374/adding-custom-colours-to-summernote
       
       var summernoteOptions = {
         height: 100,     // set editor height
@@ -819,6 +783,7 @@ console.log(getCSSCustomPropIndex());
         }
 
       }
+
       
       function resizeFunction() {   
         if (summernoteActive) {
@@ -842,11 +807,13 @@ console.log(getCSSCustomPropIndex());
         }
         onScrollText();
       }
-     
+
+      
       function onloadFunction() {   
         connectQLCpWebSocket('127.0.0.1:9999', QLCpConnected);
         onScrollText();
       }
+
       
       function QLCpConnected(status) {
         //alert("QLC+ connection status: " + status);
@@ -861,73 +828,30 @@ console.log(getCSSCustomPropIndex());
         }
         
         if (QLCpConnectedStatus) {
-          document.getElementById('QLCpConnStatus').innerHTML = '<img src="include/QLCp.png">&nbsp;<font color=green>Connected</font>';
+          document.getElementById('QLCpConnStatus').innerHTML = '<img src="include/icon/QLCp.png">&nbsp;<font color=green>Connected</font>';
           document.getElementById('QLCpConnButton').value = "Reload";
           getQLCpFunctionList(QLCpFunctionRead);
         }
         else {
-          document.getElementById('QLCpConnStatus').innerHTML = '<img src="include/QLCp_off.png">&nbsp;<font color=red>Not connected</font>'
+          document.getElementById('QLCpConnStatus').innerHTML = '<img src="include/icon/QLCp_off.png">&nbsp;<font color=red>Not connected</font>'
           document.getElementById('QLCpConnButton').value = "Connect";
         }
       }
 
+      
       function QLCpFunctionRead() {
         //alert("QLCpFunctionRead");
         // update and check the function Buttons!!!!
         editorSidebarTree();
         updateQLCpButton();
       }
-      
-      /*
-      async function loadFileOld() {
-        try{
-          [fileHandle] = await window.showOpenFilePicker({
-            multiple: false,
-            excludeAcceptAllOption: true,
-            types: [{
-              description: "Text file",
-              accept: {"text/html": [".html"]}
-            }]
-          });
-          const fileData = await fileHandle.getFile();
-          const content = await fileData.text();
-          
-          let positionStart = content.indexOf(fileDelimiterTag);
-          let positionEnd = content.indexOf(fileDelimiterTag, positionStart+1);
-          if (positionStart < 0 || positionEnd < 0){
-            alert('Not a QLCp Textbook file');
-          }
-          else {
-            //await fileStream.close();
-            if (summernoteActive) {
-              $('.click2edit').summernote('code', content.split(fileDelimiterTag)[1]);
-              //updateTextBookInfo('.note-editable');
-            }
-            else {
-              $('.click2edit').html(content.split(fileDelimiterTag)[1]);
-              //if (textBookIndexActive) {
-              //  document.getElementById('textbookID').removeAttribute("hidden");
-              //  updateTextBookIndex('#clic2editID');
-              //}
-              //updateTextBookInfo('#clic2editID');
-              //if (textBookIndexActive) { updateTextBookIndex('#clic2editID'); }
-            }
-            onScrollText();
-            if (QLCpConnectedStatus) { 
-              getQLCpFunctionList(QLCpFunctionRead);
-              // updateQLCpButton(); is done in callback
-            }
-          }
-        }
-        catch (error) {
-          alert(error);
-        }
-      }
-      */
+ 
       
       function loadFile() {
         document.getElementById('loadFileinput').click();
       }
+
+      
       function readFile(e) {
         var file = e.target.files[0];
         if (!file) return;
@@ -1013,7 +937,7 @@ console.log(getCSSCustomPropIndex());
         document.getElementById("tbButtonID").disabled = false;
 
         // Resore hided QLCP buttons
-        for (i = 1; i < 8; i++) {
+        for (i = 1; i <= qlcpButtonColor_count; i++) {
           let element = document.getElementById("hideButton"+i);
           element.disabled = false;
           if(element.classList.contains("top-button-off")) {
@@ -1041,7 +965,7 @@ console.log(getCSSCustomPropIndex());
 
       function edit() {
         // schow all QLCP buttons
-        for (i = 1; i < 8; i++) {
+        for (i = 1; i <= qlcpButtonColor_count; i++) {
             displayEditClass('.qlcpButtonColor'+i, 'inline');
             document.getElementById("hideButton"+i).disabled = true;
         }
@@ -1081,16 +1005,6 @@ console.log(getCSSCustomPropIndex());
 
         resizeFunction();
 
-        /*        
-            <div>
-              <button class="sidebarRootTreeButton" onclick="toggleHide('AudioButtons')"><span id="AudioButtonsTop">&gt;</span>&nbsp;&nbsp;<img src="include/Audio.png">&nbsp;&nbsp;Audio</button><br>
-            </div>
-            <div id="AudioButtons" hidden=hidden>
-              <button class="sidebarButton" onclick="insertQLCpButton(1)">Audio line1</button><br>
-              <button class="sidebarButton" onclick="insertQLCpButton(2)">Audio line2</button><br>
-            </div>                                
-        */
-        
         editorSidebarTree();
         
         // Set scroll Position in Editor and update TextBook info
@@ -1109,20 +1023,20 @@ console.log(getCSSCustomPropIndex());
       function editorSidebarTree () {
         // Create Sidebar Tree
         let data = '';
-        let showFunctions = ['Audio', 'Chaser', 'Collection', 'EFX', 'RGBMatrix', 'Scene', 'Script', 'Sequenz'];
+        let showFunctions = ['Audio', 'Chaser', 'Collection', 'EFX', 'RGBMatrix', 'Scene', 'Script', 'Sequence', 'Video'];
         showFunctions.forEach(function(item) {
           let subData = '';
           for (i = 0; i < functionCnt; i++) {
             if (item === functionQLCp[i].type) {
               subData += '<button class="sidebarButton" onclick="insertQLCpButton('+ functionQLCp[i].id +')">';
-              subData +=   '<img src="include/'+ item +'.png">&nbsp;&nbsp;'+ functionQLCp[i].name; 
+              subData +=   '<img src="include/icon/'+ item.toLowerCase() +'.png" style="height: 15px;">&nbsp;&nbsp;'+ functionQLCp[i].name; 
               subData += '</button><br>';
            }
           }
           if (subData) {
             data += '<div>';
             data +=   '<button class="sidebarRootTreeButton" onclick="toggleHide(\''+item+'Buttons\')">';
-            data +=     '<span id="'+item+'ButtonsTop">&gt;</span>&nbsp;&nbsp;<img src="include/'+item+'.png">&nbsp;&nbsp;'+item;
+            data +=     '<span id="'+item+'ButtonsTop">&gt;</span>&nbsp;&nbsp;<img src="include/icon/'+item.toLowerCase()+'.png"  style="height: 18px;">&nbsp;&nbsp;'+item;
             data +=   '</button><br>';
             data += '</div>';
             data += '<div id="'+ item +'Buttons" hidden=hidden>';
@@ -1142,7 +1056,7 @@ console.log(getCSSCustomPropIndex());
           }
         }
 
-        let showFunctions = ['Audio', 'Chaser', 'Collection', 'EFX', 'RGBMatrix', 'Scene', 'Script', 'Sequenz'];
+        let showFunctions = ['Audio', 'Chaser', 'Collection', 'EFX', 'RGBMatrix', 'Scene', 'Script', 'Sequence', 'Video'];
         let buttonModeText = ['Stop', 'Run', 'Flash'];
         let buttonWidthClass = ['','qlcpButtonSize50','qlcpButtonSize100']
         let buttonWith = document.querySelector('input[name="group-b"]:checked').value;
@@ -1158,7 +1072,7 @@ console.log(getCSSCustomPropIndex());
         let buttonClass = 'qlcpButton '+ buttonWidthClass[buttonWith] + ' qlcpButtonColor'+buttonColor + ' qlcpMode'+ (showFunctions.indexOf(buttonIconName)+1);
         let html = '';
         html += '<button class="'+ buttonClass +'" value="'+ id +','+ buttonMode +'">';
-        html +=   '<img src="include/'+ buttonIconName +'.png">&nbsp;'+ buttonModeText[buttonMode] +'&nbsp;-&nbsp;';
+        html +=   '<img src="include/icon/'+ buttonIconName.toLowerCase() +'.png" style="height: 22px;">&nbsp;'+ buttonModeText[buttonMode] +'&nbsp;-&nbsp;';
         html +=   '<span class="QLCpFunctionName'+ id +'">unknown</span>&nbsp;'+ buttonText; // + ' ('+ id +')';
         html += '</button>';
 
@@ -1206,13 +1120,9 @@ console.log(getCSSCustomPropIndex());
             else {
               //console.log('UNKNOWN ID ---- '+tag+' '+ id);
               //console.log(elem.parentElement);
-              elem.parentElement.classList.remove("qlcpButtonColor1");
-              elem.parentElement.classList.remove("qlcpButtonColor2");
-              elem.parentElement.classList.remove("qlcpButtonColor3");
-              elem.parentElement.classList.remove("qlcpButtonColor4");
-              elem.parentElement.classList.remove("qlcpButtonColor5");
-              elem.parentElement.classList.remove("qlcpButtonColor6");
-              elem.parentElement.classList.remove("qlcpButtonColor7");
+              for (i = 1; i <= qlcpButtonColor_count; i++) {
+                elem.parentElement.classList.remove("qlcpButtonColor"+i);
+              }
               elem.parentElement.classList.add("qlcpButtonColorError");
               elem.parentElement.value = 'Unknown ID';
               //elem.parentElement.style.backgroundColor = '#ff3300';
