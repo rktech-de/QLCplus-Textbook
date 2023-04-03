@@ -1,0 +1,277 @@
+/* Used for all qlcp buttons */
+.qlcpButton {
+  font-size:12pt; 
+  /*font-family:Nimbus Sans L; */
+  overflow: hidden;
+  white-space: nowrap; /* Don't forget this one */
+  text-overflow: ellipsis;
+  display: table-cell; 
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+  cursor:pointer;
+  height: 30px;
+  padding: 0 10px 0 10px;
+
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px; 
+  border-radius: 6px; 
+}
+
+.qlcpButtonColor1 {
+  background: #69b;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8bd), to(#69b) );
+  background: -moz-linear-gradient(-90deg, #8bd, #69b);
+}
+
+.qlcpButtonColor1:hover {
+  background: #479;
+  background: -webkit-gradient(linear, left top, left bottom, from(#69b), to(#479) );
+  background: -moz-linear-gradient(-90deg, #69b, #479);
+}
+
+.qlcpButtonColor2 {
+  background: #fc2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fe4), to(#fc2) );
+  background: -moz-linear-gradient(-90deg, #fe4, #fc2);
+}
+
+.qlcpButtonColor2:hover {
+  background: #da0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fc2), to(#da0) );
+  background: -moz-linear-gradient(-90deg, #fc2, #da0);
+}
+
+.qlcpButtonColor3 {
+  background: #cc2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ee4), to(#cc2) );
+  background: -moz-linear-gradient(-90deg, #ee4, #cc2);
+}
+
+.qlcpButtonColor3:hover {
+  background: #aa0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cc2), to(#aa0) );
+  background: -moz-linear-gradient(-90deg, #cc2, #aa0);
+}
+
+.qlcpButtonColor4 {
+  background: #9d7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bf9), to(#9d7) );
+  background: -moz-linear-gradient(-90deg, #bf9, #9d7);
+}
+
+.qlcpButtonColor4:hover {
+  background: #7b5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9d7), to(#7b5) );
+  background: -moz-linear-gradient(-90deg, #9d7, #7b5);
+}
+
+.qlcpButtonColor5 {
+  background: #4dd;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6ee), to(#4dd) );
+  background: -moz-linear-gradient(-90deg, #6ee, #4dd);
+}
+
+.qlcpButtonColor5:hover {
+  background: #2bb;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4dd), to(#2bb) );
+  background: -moz-linear-gradient(-90deg, #4dd, #2bb);
+}
+
+.qlcpButtonColor6 {
+  background: #89e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#abf), to(#89e) );
+  background: -moz-linear-gradient(-90deg, #abf, #89e);
+}
+
+.qlcpButtonColor6:hover {
+  background: #67c;
+  background: -webkit-gradient(linear, left top, left bottom, from(#89e), to(#67c) );
+  background: -moz-linear-gradient(-90deg, #89e, #67c);
+}
+
+.qlcpButtonColor7 {
+  background: #bb9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#dda), to(#bb9) );
+  background: -moz-linear-gradient(-90deg, #dda, #bb9);
+}
+
+.qlcpButtonColor7:hover {
+  background: #997;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bb9), to(#997) );
+  background: -moz-linear-gradient(-90deg, #bb9, #997);
+}
+
+.qlcpButtonColorError {
+  color: white;
+  background: #f30;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f52), to(#f30) );
+  background: -moz-linear-gradient(-90deg, #f52, #f30);
+}
+
+
+.qlcpButtonSize50 {
+  width: 50%;
+}
+
+.qlcpButtonSize100 {
+  width: 95%;
+}
+
+/*
+.qlcpButtonFX {
+  font-size:14pt; 
+  display: table-cell; 
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+  cursor:pointer;
+  height: 30px;
+  width: 95%;
+  padding: 0 10px 0 10px;
+
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px; 
+  border-radius: 6px; 
+}
+
+.qlcpButtonFX:hover {
+}
+*/
+
+/*
+.qlcpButtonNOK {
+  font-size:14pt; 
+  display: table-cell; 
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+  height: 30px;
+  width: 95%;
+  padding: 0 10px 0 10px;
+  background: #Af0000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#Af0000) );
+  background: -moz-linear-gradient(-90deg, #ff0000, #Af0000);
+
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px; 
+  border-radius: 6px; 
+}
+*/
+
+/* ab Chrome 106 */
+/*
+.textbook{
+  container-type: inline-size;
+  container-name: textbook-style;
+}
+@container textbook-style (min-width: 0px) {
+  div {
+    margin-bottom: 10px;
+  }
+}
+*/
+
+.actor-style {
+    color: #992aa1;
+    font-weight: bold;;
+}
+
+.hint-text-style {
+    color: #008080;
+    font-style: italic;
+}
+
+/* Used for Summernode (.actor-text).... */
+tab15 {
+    padding-left: 1.5cm;
+}
+
+.actor-text {
+    color: rgb(0, 0, 0);
+    margin-left: 1.5cm; 
+    text-indent: -1.5cm;
+    margin-bottom: 0.3cm;
+}
+
+.text-size {
+    font-size: 12pt;
+}
+
+p {
+    margin-bottom: 12px;
+}
+h1 {
+    color: #405921;
+}
+h2 {
+    color: #cf062b;
+}
+h3 {
+    color: #284ec9; /* color: #10608f; */
+
+}
+h4 {
+    color: #992aa1; /* see also .actor-style */
+}
+h5 {
+}
+h6 {
+    color: #8f5c10;
+    text-align: center;
+}
+
+/* Used for TextBook index view */
+.h1index {
+    color: #405921;
+    padding-left: 1em;
+}
+.h2index {
+    color: #cf062b;
+    padding-left: 2em;
+}
+.h3index {
+    color: #284ec9;
+    padding-left: 3em;
+}
+.h4index {
+    color: #992aa1;
+    padding-left: 4em;
+}
+.h5index {
+}
+.h6index {
+    color: #8f5c10;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Used for Summernote user buttons */
+.h1color {
+    color: #405921;
+}
+.h2color {
+    color: #cf062b;
+}
+.h3color {
+    color: #284ec9;
+}
+.h4color {
+    color: #992aa1;
+}
+.h5color {
+}
+.h6color {
+    color: #8f5c10;
+}
+
+
+
+/*
+.qlcpButtonNOK:hover {
+  background: #ff0000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8f0000), to(#ff0000) );
+  background: -moz-linear-gradient(-90deg, #8f0000, #ff0000);
+}
+*/
