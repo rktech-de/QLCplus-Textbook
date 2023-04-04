@@ -1,7 +1,7 @@
 # qlcplus-textbook
 An add on for QLC+ to start actions out of a (theatre) text document
 
-With it you can scroll through a (HTLM) formated Text an place buttons which start/stop any kind of QLCp actions.
+With it you can scroll through a (HTLM) formated Text an place buttons which start/stop any kind of QLCplus actions.
 
 **Installation**:
 
