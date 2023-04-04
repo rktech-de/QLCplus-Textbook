@@ -1,0 +1,1 @@
+start chrome --allow-file-access-from-files --new-window --app=file://%CD%/QLCpTextBook.html
