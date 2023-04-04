@@ -94,7 +94,7 @@ Here the functionality is much simpler, you can:
 
 **Some additional information**
 
-This Application has been programmed for my own need and "survived" the first live test in our [theater play](https://dorfbuehne-merching.de/), before I was using some python script together with LibreOffice to create some HTML file to connect to QLCplus but it was a nightmare to create and change something. Now this app did more then I expected and I hope it could be helpful fore someone else too.
+This Application has been programmed for my own need and "survived" the first live test in our [theater play](https://dorfbuehne-merching.de/). Before I was using some python script together with LibreOffice to create some HTML file to connect to QLCplus but it was a nightmare to create and change something. Now this app did more then I expected and I hope it could be helpful for someone else too.
 
 All work and use is currently done on Linux with Chrome, so there could be some issues with other "systems". 
 
