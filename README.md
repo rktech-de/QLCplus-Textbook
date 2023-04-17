@@ -20,11 +20,15 @@ As mentioned you can load the "QLCpTextBook.html" into a web browser or if you h
 
 The Application has two modes, "Edit" and "View", which can be selected by the `Edit` button. By default it start in the "View" mode.
 
+![View Mode with active index](doc/Screenshot_ViewModeIndex.png)
+
 When starting it also try to connect to the QLCplus web-socket interface at the local IP address (127.0.0.1). So you should start the QLCplus first and with the web interface activated by `qlcplus -w`. If you start QLCplus later or it is running on a different PC you can change the IP address and push the `Connect` button. Current status is displayed right of this button.
 
 If you have already created an textbook file (stored as HTML) you can load it with the `Load File` button. *But only files stored with this application are accepted!* 
 
 First start with the edit mode and press the `Edit` button.
+
+![Edit Mode](doc/Screenshot_EditMode.png)
 
 Now you have on the left side the  [summernote](https://summernote.org/) editor area and on the right side the functions of [QLCplus](https://www.qlcplus.org/)
 
