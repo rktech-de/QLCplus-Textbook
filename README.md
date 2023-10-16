@@ -11,7 +11,7 @@ This Web-document uses some js libraries which are loaded automatically if your 
 
 **Start**:
 
-As mentioned you can load the "QLCpTextBook.html" into a web browser or if you have installed Chrome use the start script "QLCpTextBook.sh" (Linux) or "QLCpTextBook.sh" (Windows) with two advantages:
+As mentioned you can load the "QLCpTextBook.html" into a web browser or if you have installed Chrome use the start script "QLCpTextBook.sh" (Linux) or "QLCpTextBook.bat" (Windows) with two advantages:
 
 - It looks like an Application (Browser menu is removed)
 - you can save the text book file somewhere on your PC by using a file-selector (with FireFox it is always "downloaded" into the download folder)
